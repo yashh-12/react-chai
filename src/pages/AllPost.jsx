@@ -8,6 +8,8 @@ function AllPosts() {
     appwriteService.getPosts([]).then((posts) => {
         if (posts) {
             setPosts(posts.documents)
+            
+
         }
     })
   return (
